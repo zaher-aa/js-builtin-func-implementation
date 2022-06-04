@@ -1,0 +1,23 @@
+{
+  "name": "js-builtin-func-implementation",
+  "version": "1.0.0",
+  "description": "Implement JavaScript built-in functions from scratch, inspired by [Elzero Web School](https://www.linkedin.com/posts/osamaelzero_aeuaedaepaeoaevabraepaesaeaaeyaezaew-activity-6936092989798645760-k4rp?utm_source=linkedin_share&utm_medium=member_desktop_web)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaher-aa/js-builtin-func-implementation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaher-aa/js-builtin-func-implementation/issues"
+  },
+  "homepage": "https://github.com/zaher-aa/js-builtin-func-implementation#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
