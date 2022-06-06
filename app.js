@@ -25,3 +25,17 @@ String.prototype.CConcat = function (other) {
 
   return word;
 };
+
+// * includes
+
+String.prototype.CIncludes = function (slice) {
+  if (typeof slice !== 'string') throw new TypeError('Must be a string');
+
+  for (let i = 0; i < this.length; i++) {
+    if (slice === this.substring(i, i + slice.length)) return true;
+  }
+
+  return false;
+};
+
+console.log('zaher'.CIncludes(''));
